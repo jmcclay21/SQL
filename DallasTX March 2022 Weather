@@ -87,7 +87,7 @@ VALUES (28, 73, 52, 'NULL', 95, 23);
 INSERT INTO March_2022_Weather
 VALUES (29, 74, 52, 'NULL', 88, 27);
 
-CREATE TABLE FlightSchedule (Flight_dateID INTEGER PRIMARY KEY, Flight_Number INTEGER, Departure TEXT, Flight_Status TEXT);
+CREATE TABLE FlightSchedule (Day_of_Month_id INTEGER PRIMARY KEY, Flight_Number INTEGER, Departure TEXT, Flight_Status TEXT);
 
 INSERT INTO FlightSchedule
 VALUES (1, 352, 'SEA', 'DELAYED');
@@ -96,86 +96,87 @@ INSERT INTO FlightSchedule
 VALUES (2, 894, 'BWI', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (3, 894, 'AUS', 'ON_TIME');
+VALUES (3, 266, 'AUS', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (4, 894, 'PHL', 'CANCELLED');
+VALUES (4, 975, 'PHL', 'CANCELLED');
 
 INSERT INTO FlightSchedule
-VALUES (5, 894, 'CLT', 'ON_TIME');
+VALUES (5, 861, 'CLT', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (6, 894, 'PDX', 'DELAYED');
+VALUES (6, 488, 'PDX', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (7, 894, 'CHI', 'DELAYED');
+VALUES (7, 391, 'CHI', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (8, 894, 'DTW', 'DELAYED');
+VALUES (8, 406, 'DTW', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (9, 894, 'SFO', 'ON_TIME');
+VALUES (9, 235, 'SFO', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (10, 894, 'ORD', 'ON_TIME');
+VALUES (10, 740, 'ORD', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (11, 894, 'SAN', 'DELAYED');
+VALUES (11, 386, 'SAN', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (12, 894, 'LAS', 'ON_TIME');
+VALUES (12, 233, 'LAS', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (13, 894, 'SEA', 'ON_TIME');
+VALUES (13, 374, 'SEA', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (14, 894, 'LAX', 'CANCELLED');
+VALUES (14, 616, 'LAX', 'CANCELLED');
 
 INSERT INTO FlightSchedule
-VALUES (15, 894, 'MSP', 'DELAYED');
+VALUES (15, 189, 'MSP', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (16, 894, 'MCO', 'DELAYED');
+VALUES (16, 192, 'MCO', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (17, 894, 'BOS', 'DELAYED');
+VALUES (17, 517, 'BOS', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (18, 894, 'LAX', 'DELAYED');
+VALUES (18, 063, 'LAX', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (19, 894, 'MIA', 'DELAYED');
+VALUES (19, 938, 'MIA', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (20, 894, 'IND', 'ON_TIME');
+VALUES (20, 274, 'IND', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (21, 894, 'PHL', 'DELAYED');
+VALUES (21, 095, 'PHL', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (22, 894, 'PDX', 'CANCELLED');
+VALUES (22, 272, 'PDX', 'CANCELLED');
 
 INSERT INTO FlightSchedule
-VALUES (23, 894, 'DEN', 'ON_TIME');
+VALUES (23, 599, 'DEN', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (24, 894, 'CHI', 'ON_TIME');
+VALUES (24, 270, 'CHI', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (25, 894, 'ATL', 'ON_TIME');
+VALUES (25, 116, 'ATL', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (26, 894, 'HOU', 'ON_TIME');
+VALUES (26, 838, 'HOU', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (27, 894, 'STL', 'ON_TIME');
+VALUES (27, 054, 'STL', 'ON_TIME');
 
 INSERT INTO FlightSchedule
-VALUES (28, 894, 'PHX', 'DELAYED');
+VALUES (28, 447, 'PHX', 'DELAYED');
 
 INSERT INTO FlightSchedule
-VALUES (29, 894, 'JFK', 'DELAYED');
+VALUES (29, 362, 'JFK', 'DELAYED');
 
 SELECT * FROM March_2022_Weather;
 
 SELECT * FROM FlightSchedule;
+
