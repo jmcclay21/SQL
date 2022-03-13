@@ -1,4 +1,4 @@
-CREATE TABLE March_2022_Weather (dateid INTEGER PRIMARY KEY, temp_high INTEGER, temp_low INTEGER, Forecast_desc TEXT, Record_high INTEGER, Record_low INTEGER);
+CREATE TABLE March_2022_Weather (Day_of_Month_id INTEGER PRIMARY KEY, Temp_high INTEGER, Temp_low INTEGER, Forecast_desc TEXT, Record_high INTEGER, Record_low INTEGER);
 
 INSERT INTO March_2022_Weather
 VALUES (1, 77, 42, 'Partly Cloudy', 82, 26
@@ -46,35 +46,52 @@ INSERT INTO March_2022_Weather
 VALUES (15, 66, 46, 'Partly Cloudy', 91, 25);
 
 INSERT INTO March_2022_Weather
-VALUES (16, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+VALUES (16, 77, 33, 'Sunny', 82, 26); 
 
 INSERT INTO March_2022_Weather
-VALUES (17, 66, 46, 'Partly Cloudy', 91, 25);
+VALUES (17, 80, 51, 'Scattered Showers', 86, 28);
 
 INSERT INTO March_2022_Weather
-VALUES (18, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+VALUES (18, 67, 43, 'Partly Cloudy', 84, 30); 
 
 INSERT INTO March_2022_Weather
-VALUES (19, 66, 46, 'Partly Cloudy', 91, 25);
+VALUES (19, 70, 44, 'Mostly Sunny', 87, 24);
 
 INSERT INTO March_2022_Weather
-VALUES (20, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+VALUES (20, 78, 54, 'Sunny', 88, 16); 
 
 INSERT INTO March_2022_Weather
-VALUES (21, 66, 46, 'Partly Cloudy', 91, 25);
+VALUES (21, 75, 57, 'Mostly Cloudy', 90, 20);
 
 INSERT INTO March_2022_Weather
-VALUES (22, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+VALUES (22, 72, 46, 'Scattered Thunderstorms', 96, 30); 
 
 INSERT INTO March_2022_Weather
-VALUES (23, 66, 46, 'Partly Cloudy', 91, 25);
+VALUES (23, 69, 45, 'Partly Cloudy', 92, 27);
 
 INSERT INTO March_2022_Weather
-VALUES (24, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+VALUES (24, 71, 47, 'Partly Cloudy', 90, 29); 
 
 INSERT INTO March_2022_Weather
-VALUES (25, 66, 46, 'Partly Cloudy', 91, 25);
+VALUES (25, 74, 48, 'Sunny', 88, 30);
 
+INSERT INTO March_2022_Weather
+VALUES (26, 77, 52, 'Mostly Sunny', 91, 26); 
 
+INSERT INTO March_2022_Weather
+VALUES (27, 75, 51, 'Partly Cloudy', 86, 23);
 
+INSERT INTO March_2022_Weather
+VALUES (28, 73, 52, 'NULL', 95, 23); 
+
+INSERT INTO March_2022_Weather
+VALUES (29, 74, 52, 'NULL', 88, 27);
+
+INSERT INTO March_2022_Weather
+VALUES (30, 74, 53,'NULL', 89, 29);
+
+INSERT INTO March_2022_Weather
+VALUES (31, 74, 53,'NULL', 95, 30);
+
+CREATE TABLE 
 SELECT * FROM March_2022_Weather
