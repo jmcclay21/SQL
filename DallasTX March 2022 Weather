@@ -1,0 +1,80 @@
+CREATE TABLE March_2022_Weather (dateid INTEGER PRIMARY KEY, temp_high INTEGER, temp_low INTEGER, Forecast_desc TEXT, Record_high INTEGER, Record_low INTEGER);
+
+INSERT INTO March_2022_Weather
+VALUES (1, 77, 42, 'Partly Cloudy', 82, 26
+);
+INSERT INTO March_2022_Weather
+VALUES (2, 81, 44, 'Mostly Sunny', 90, 17
+);
+INSERT INTO March_2022_Weather
+VALUES (3, 81, 53, 'Mostly Sunny', 86, 16);
+
+INSERT INTO March_2022_Weather
+VALUES (4, 75, 63, 'Foggy', 84, 11); 
+
+INSERT INTO March_2022_Weather
+VALUES (5, 79, 64, 'Partly Cloudy', 88, 21);
+
+INSERT INTO March_2022_Weather
+VALUES (6, 79, 37, 'Scattered Showers', 95, 16); 
+
+INSERT INTO March_2022_Weather
+VALUES (7,53, 33, 'Scattered Showers', 89, 20);
+
+INSERT INTO March_2022_Weather
+VALUES (8, 50, 29, 'Scattered Showers', 90, 20); 
+
+INSERT INTO March_2022_Weather
+VALUES (9, 62, 38, 'Sunny', 85, 24);
+
+INSERT INTO March_2022_Weather
+VALUES (10, 70, 33, 'Sunny', 87, 20); 
+
+INSERT INTO March_2022_Weather
+VALUES (11, 38, 26, 'Rain', 93, 17);
+
+INSERT INTO March_2022_Weather
+VALUES (12, 59, 39, 'Sunny', 94, 12); 
+
+INSERT INTO March_2022_Weather
+VALUES (13, 67, 49, 'Sunny', 91, 14);
+
+INSERT INTO March_2022_Weather
+VALUES (14, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (15, 66, 46, 'Partly Cloudy', 91, 25);
+
+INSERT INTO March_2022_Weather
+VALUES (16, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (17, 66, 46, 'Partly Cloudy', 91, 25);
+
+INSERT INTO March_2022_Weather
+VALUES (18, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (19, 66, 46, 'Partly Cloudy', 91, 25);
+
+INSERT INTO March_2022_Weather
+VALUES (20, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (21, 66, 46, 'Partly Cloudy', 91, 25);
+
+INSERT INTO March_2022_Weather
+VALUES (22, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (23, 66, 46, 'Partly Cloudy', 91, 25);
+
+INSERT INTO March_2022_Weather
+VALUES (24, 77, 46, 'Scattered Thunderstorms', 92, 22); 
+
+INSERT INTO March_2022_Weather
+VALUES (25, 66, 46, 'Partly Cloudy', 91, 25);
+
+
+
+SELECT * FROM March_2022_Weather
