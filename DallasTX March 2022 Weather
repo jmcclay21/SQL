@@ -87,11 +87,95 @@ VALUES (28, 73, 52, 'NULL', 95, 23);
 INSERT INTO March_2022_Weather
 VALUES (29, 74, 52, 'NULL', 88, 27);
 
-INSERT INTO March_2022_Weather
-VALUES (30, 74, 53,'NULL', 89, 29);
+CREATE TABLE FlightSchedule (Flight_dateID INTEGER PRIMARY KEY, Flight_Number INTEGER, Departure TEXT, Flight_Status TEXT);
 
-INSERT INTO March_2022_Weather
-VALUES (31, 74, 53,'NULL', 95, 30);
+INSERT INTO FlightSchedule
+VALUES (1, 352, 'SEA', 'DELAYED');
 
-CREATE TABLE 
-SELECT * FROM March_2022_Weather
+INSERT INTO FlightSchedule
+VALUES (2, 894, 'BWI', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (3, 894, 'AUS', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (4, 894, 'PHL', 'CANCELLED');
+
+INSERT INTO FlightSchedule
+VALUES (5, 894, 'CLT', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (6, 894, 'PDX', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (7, 894, 'CHI', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (8, 894, 'DTW', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (9, 894, 'SFO', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (10, 894, 'ORD', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (11, 894, 'SAN', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (12, 894, 'LAS', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (13, 894, 'SEA', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (14, 894, 'LAX', 'CANCELLED');
+
+INSERT INTO FlightSchedule
+VALUES (15, 894, 'MSP', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (16, 894, 'MCO', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (17, 894, 'BOS', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (18, 894, 'LAX', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (19, 894, 'MIA', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (20, 894, 'IND', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (21, 894, 'PHL', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (22, 894, 'PDX', 'CANCELLED');
+
+INSERT INTO FlightSchedule
+VALUES (23, 894, 'DEN', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (24, 894, 'CHI', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (25, 894, 'ATL', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (26, 894, 'HOU', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (27, 894, 'STL', 'ON_TIME');
+
+INSERT INTO FlightSchedule
+VALUES (28, 894, 'PHX', 'DELAYED');
+
+INSERT INTO FlightSchedule
+VALUES (29, 894, 'JFK', 'DELAYED');
+
+SELECT * FROM March_2022_Weather;
+
+SELECT * FROM FlightSchedule;
